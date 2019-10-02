@@ -385,3 +385,39 @@ header .social-links{
     z-index: 2;
     width: 100%;
 }
+
+
+@media screen and (max-width: 680px) {
+  header .col-md-4.col-6{
+    display: none;
+  } 
+	.navbar  {
+		border:none;
+		background: transparent !important;
+	}
+	header{
+		padding-bottom: 10px;
+	}
+.navbar ul{
+	padding-right: 0
+}
+#demo .carousel-inner img{
+	height: 200px;
+}
+.callout-tile.component .callout-tile-wrap{
+	height: auto;
+}
+.callout-tile.component .callout-tile-wrap.img-right .callout-img{
+	width: 100%;
+}
+.callout-tile.component .callout-tile-wrap.img-right .callout-content{
+	width: 100%;
+    max-width: 100%;
+}
+.callout-tile.component .callout-tile-wrap.img-left .callout-img{
+	width: 100%;
+}.callout-tile.component .callout-tile-wrap.img-left .callout-content{
+	width: 100%;
+    max-width: 100%;
+}
+}
