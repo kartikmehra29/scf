@@ -239,13 +239,8 @@ header .social-links{
 }
 .callout-tile.component .callout-tile-wrap {
     display: block;
-    border: 1px solid #cecece;
-    height: 270px;
     text-decoration: none;
     color: #000;
-}
-.callout-tile.component .callout-tile-wrap.img-top {
-    height: 570px;
 }
 .callout-tile.component .callout-img {
     background-size: cover;
@@ -358,14 +353,8 @@ header .social-links{
     border-bottom: 20px solid transparent;
     border-left: 0;
     border-right: 20px solid #FFF;
-}
-.callout-tile.component .callout-tile-wrap.img-left .callout-content {
-    max-width: 50%;
-    float: right;
-    padding-left: 12px;
 }.callout-tile.component .callout-content {
     padding: 12px 24px 0 24px;
-    width: 50%;
 }
 
 .callout-tile.component .callout-tile-wrap.img-over .callout-img {
